@@ -1,5 +1,4 @@
 #import<iostream>
-#import<stdlib.h>
 using namespace std;
 
 const int n = 10;
@@ -35,5 +34,5 @@ int main() {
   bubbleSort(numbers, n);
   print(numbers, n);
 
-  system("pause");
+  getchar();
 }
