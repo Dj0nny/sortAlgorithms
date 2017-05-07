@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
 using namespace std;
 
 const int n = 5;
@@ -39,6 +38,6 @@ int main() {
   naiveSort(numbers, n);
   print(numbers, n);
 
-  system("pause");
+  getchar();
 
 }
